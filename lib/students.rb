@@ -1,21 +1,21 @@
 ## Code your solution below. Note that your SQL queries should be in quotation marks.
 
 def highest_student_gpa
-  "select max(col) from table_name;"
+  "select max(col) from students;"
 end
 
 def lowest_student_gpa
-  "select min(col) from table_name;"
+  "select min(gpa) from students;"
 end
 
 def average_student_gpa
-  "select avg(col) from table_name;"
+  "select avg(gpa) from students;"
 end
 
 def total_tardies_for_all_students
-  "select sum(col) form table_name;"
+  "select sum(tardies) form students;"
 end
 
 def average_gpa_for_9th_grade
-  "select avg(col) from table_name;"
+  "select avg(gpa) from students;"
 end
